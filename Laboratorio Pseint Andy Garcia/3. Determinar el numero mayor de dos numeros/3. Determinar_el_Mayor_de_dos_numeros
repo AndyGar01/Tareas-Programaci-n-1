@@ -1,0 +1,32 @@
+Algoritmo Determinar_el_Mayor_de_dos_numeros
+	//Bievenida al usuario
+	Escribir ".....Bienvenido usuario....."
+	Escribir "A continuacion se le pedira ingresar los 2 numeros para saber cual es el mayor"
+	
+Repetir 
+	//Pedir Datos
+	Escribir "Ingresar el primer numero: "
+	Leer Num1
+	
+	Escribir "Ingresar el segundo numero: "
+	Leer Num2
+	
+	Si Num1 > Num2 Entonces
+		Escribir "El numero: ", Num1 " Es el mayor"
+		
+	SiNo
+		Si Num2 > Num1 Entonces 
+			Escribir "El numero: ", Num2 " Es el mayor"
+			
+		FinSi
+	Fin Si
+	
+	Escribir "Desea ingresar nuevos numeros (Si/No)"
+	Leer Condicion
+	
+Hasta que Condicion = 'No' o Condicion = 'NO' o Condicion = 'no'
+
+//Despedida 
+Escribir "Finalizado ejecucion, feliz tarde/Noche'
+
+FinAlgoritmo

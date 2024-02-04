@@ -1,0 +1,35 @@
+Algoritmo Calcular_Promedio_N_Numeros
+	//Bievenida al usuario
+	Escribir ".....Bienvenido usuario....."
+	Escribir "A continuacion se le pedira ingresar la cantidad de numeros que quiera y luego ingresar los valores y calcuaremos el promedio "
+	
+	//Variables
+	Cantidad = 0
+	Numero = 0
+	Suma = 0 
+	
+	Repetir 
+	//Pedir datos
+	Escribir "Ingresar la cantidad de numeros que desee: "
+	Leer Cantidad
+	
+	Para N = 1 Hasta Cantidad Con Paso 1 Hacer
+		Escribir "Ingrese el : " N " numero"
+		Leer Numero
+		
+		//Operacion Suma
+		Suma = Suma + Numero
+	Fin Para 
+	
+	//Promedio
+	Promedio = Suma / Cantidad 
+	
+	//Imprimiendo ddatos 
+	Escribir "El promedio de la cantidad de numeros ingresados es: ", Promedio 
+	
+	Escribir "Desea ingresar nuevos numeros o cantidades (SI/No): "
+	Leer Opcion 
+	
+	Hasta Que Opcion = "No" o Opcion = "NO"
+	
+FinAlgoritmo

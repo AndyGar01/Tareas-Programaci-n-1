@@ -1,0 +1,27 @@
+Algoritmo Calcular_Perimetro_Area_De_Un_Circulo
+	// Bievenida al usuario
+	Escribir '.....Bienvenido usuario.....'
+	Escribir 'A continuacion se le pedira ingresar los valores para poder calcular el perimetro o el area de un circulo'
+	// Pedir datos
+	Escribir 'Ingresar que opcion desea realizar (1. Perimetro de un circulo / 2. Area de un circulo): '
+	Leer Opcion
+	Repetir
+		Si Opcion=1 Entonces
+			Escribir 'Ingresar el diametro para calcular el perimetro: '
+			Leer diametro
+			Resultado <- 3.1416*diametro
+			Escribir 'El perimetro del circulo es: ', Resultado
+		SiNo
+			Si Opcion=2 Entonces
+				Escribir 'Ingresar el radio del circulo para calcular el area'
+				Leer radio
+				Resultado <- 3.1416*radio^2
+				Escribir 'El area del circulo es: ', Resultado
+			FinSi
+		FinSi
+		Escribir 'Desea ingresar nuevos valores sobre la opcion elegida (Si/No)'
+		Leer condicion
+	Hasta Que condicion='No' O condicion='NO'
+	// Despedida 
+	Escribir 'Finalizado ejecucion, feliz tarde/Noche'
+FinAlgoritmo

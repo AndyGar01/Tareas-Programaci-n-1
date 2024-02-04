@@ -1,0 +1,26 @@
+Algoritmo Calcular_Salario_Semanal
+	//Bievenida al usuario
+	Escribir ".....Bienvenido usuario....."
+	Escribir "A continuacion se le pedira ingresar datos de su trabajo"
+	
+	Repetir
+	//Pedir datos
+	Escribir "Ingresar cuanto gana por dia: "
+	leer SalarioxDia
+	
+	Escribir "Ingresar cuantos dias trabaja a la semana: "
+	leer DiasTrabajados
+	
+	SalarioSemanal = SalarioxDia * DiasTrabajados
+	
+	Escribir "Su salario semanal es de: ", SalarioSemanal
+	
+	Escribir "Desea ingresar nuevos datos (Si/No): "
+	Leer Opcion
+	
+Hasta que Opcion = 'No' o Opcion = 'NO'
+
+	//Despedida 
+	Escribir "Finalizado ejecucion, feliz tarde/Noche"
+	
+FinAlgoritmo

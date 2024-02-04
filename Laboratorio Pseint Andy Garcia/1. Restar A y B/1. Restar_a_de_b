@@ -1,0 +1,28 @@
+Algoritmo Restar_a_de_b
+	//Bievenida al usuario
+	Escribir ".....Bienvenido usuario....."
+	Escribir "A continuacion se le pedira ingresar los valores que desea restar"
+	
+Repetir
+	//Pedir datos
+	Escribir "Ingrese el primer valor de A: "
+	leer ValorA;
+	
+	Escribir "Ingresar el segundo valor de  B: "
+	leer ValorB;
+	
+    //Operacion 
+    Operacion = ValorA - ValorB
+	
+	//Imprimiendo datos
+    Escribir "La resta de los dos valores ingresados es: ", Operacion
+	
+	Escribir "Desea volver a ingresar nuevos valores (Si/No)"
+	leer condicion;
+	
+Hasta que Condicion = 'No' o Condicion = 'NO'
+
+	//Despedida 
+	Escribir "Finalizado ejecucion, feliz tarde/Noche'
+	
+FinAlgoritmo

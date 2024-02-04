@@ -1,0 +1,25 @@
+Algoritmo Calcular_El_Cociente_Residuo
+	//Bievenida al usuario
+	Escribir ".....Bienvenido usuario....."
+	Escribir "A continuacion se le pedira ingresar los valores que desea dividir y calcular el residuo y el cociente"
+	
+	Repetir
+	//Pedir datos 
+	Escribir "Ingresar el primer valor de (A): "
+	Leer Num1
+	
+	Escribir "Ingresar el segundo valor (B): "
+	Leer Num2
+	
+	//Operaciones 
+	Cociente = Num1 / Num2
+	Residuo = Num1 mod Num2
+	
+	Escribir "El cociente de la division es: ", Cociente " Y el residuo de la operacion es: ", Residuo
+	
+	Escribir "Desea ingresar una nueva division (Si/No)"
+	Leer Opcion 
+	
+	Hasta Que Opcion = 'No' o Opcion = 'NO'
+	
+FinAlgoritmo

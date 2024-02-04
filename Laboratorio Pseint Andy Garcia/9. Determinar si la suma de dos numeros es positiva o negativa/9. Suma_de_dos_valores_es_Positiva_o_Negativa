@@ -1,0 +1,23 @@
+Algoritmo Suma_de_dos_valores_es_Positiva_o_Negativa
+	// Bievenida al usuario
+	Escribir '.....Bienvenido usuario.....'
+	Escribir 'A continuacion se le pedira ingresar los valores a sumar y saber si la suma es positiva o negativa'
+	Repetir
+		// Pedir datos
+		Escribir 'Ingresar el primer numero: '
+		Leer Num1
+		Escribir 'Ingresar el segundo numero: '
+		Leer Num2
+		// Imprimiendo datos 
+		Resul <- Num1+Num2
+		Si Resul>0 Entonces
+			Escribir 'La suma ingresada es: ', Resul, ' y la suma es positiva'
+		SiNo
+			Escribir 'La suma ingresada es: ', Resul, ' y la suma es negativa'
+		FinSi
+		Escribir 'Desea ingresar otra suma (Si/No)'
+		Leer Condicion
+	Hasta Que Condicion='No' O Condicion='NO' O Condicion='no'
+	// Despedida 
+	Escribir 'Finalizado ejecucion, feliz tarde/Noche'
+FinAlgoritmo

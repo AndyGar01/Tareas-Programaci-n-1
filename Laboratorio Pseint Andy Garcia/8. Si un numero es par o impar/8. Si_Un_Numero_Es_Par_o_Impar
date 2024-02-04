@@ -1,0 +1,19 @@
+Algoritmo Si_Un_Numero_Es_Par_o_Impar
+	// Bievenida al usuario
+	Escribir '.....Bienvenido usuario.....'
+	Escribir 'A continuacion se le pedira ingresar el numero que desee saber si es par o impar'
+	Repetir
+		// Pedir datos
+		Escribir 'Ingresar el numero que desee saber si es par o impar: '
+		Leer Num
+		Si Num MOD 2=0 Entonces
+			Escribir 'El numero ingresado es par'
+		SiNo
+			Escribir 'El numero ingresado es impar'
+		FinSi
+		Escribir 'Desea ingresar otro numero para saber si es o no par (Si/No)'
+		Leer Condicion
+	Hasta Que Condicion='No' O Condicion='NO' O Condicion='no'
+	// Despedida 
+	Escribir 'Finalizado ejecucion, feliz tarde/Noche'
+FinAlgoritmo
