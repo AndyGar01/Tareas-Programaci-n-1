@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1707689264 source:c:\users\andyg\music\documentos\codeblocks\bmilibrasykilogramos\main.cpp
+	<iostream>
+	<string>
+	<iomanip>
+
