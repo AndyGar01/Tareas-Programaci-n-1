@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1708531583 source:c:\users\andyg\music\documentos\proyectos en clase\proyectos con el inge c++\campeonato de football\main.cpp
+	<iostream>
+	<vector>
+	<cstdlib>
+	<ctime>
+	<string>
+
