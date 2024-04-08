@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1712616866 source:c:\users\andyg\music\documentos\implementacion y encabezado\src\segundosemestre.cpp
+	"SegundoSemestre.h"
+	<cstdlib>
+
+1712616832 c:\users\andyg\music\documentos\implementacion y encabezado\include\segundosemestre.h
+	<string>
+
+1712616882 source:c:\users\andyg\music\documentos\implementacion y encabezado\src\tercersemestre.cpp
+	"TercerSemestre.h"
+	<cstdlib>
+
+1712616876 c:\users\andyg\music\documentos\implementacion y encabezado\include\tercersemestre.h
+	<string>
+
+1712616858 source:c:\users\andyg\music\documentos\implementacion y encabezado\src\primersemestre.cpp
+	"PrimerSemestre.h"
+	<cstdlib>
+
+1712616850 c:\users\andyg\music\documentos\implementacion y encabezado\include\primersemestre.h
+	<string>
+
+1712616904 source:c:\users\andyg\music\documentos\implementacion y encabezado\main.cpp
+	<iostream>
+	<iomanip>
+	"PrimerSemestre.h"
+	"SegundoSemestre.h"
+	"TercerSemestre.h"
+
